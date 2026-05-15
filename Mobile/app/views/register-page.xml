@@ -1,0 +1,17 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" actionBarHidden="true">
+  <ScrollView>
+    <StackLayout class="screen">
+      <Label text="Inscription" class="title" />
+      <Label text="Créer un compte AUTO MIRAL" class="subtitle" />
+
+      <TextField id="nameField" hint="Nom complet" class="input" />
+      <TextField id="emailField" hint="Email" keyboardType="email" class="input" />
+      <TextField id="passwordField" hint="Mot de passe" secure="true" class="input" />
+
+      <Button text="S'INSCRIRE" tap="onRegister" class="btn-primary" />
+      <Button text="RETOUR CONNEXION" tap="goLogin" class="btn-secondary" />
+
+      <Label id="messageLabel" text="" class="message" visibility="collapse" textWrap="true" />
+    </StackLayout>
+  </ScrollView>
+</Page>

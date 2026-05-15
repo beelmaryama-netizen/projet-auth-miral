@@ -1,0 +1,30 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" actionBarHidden="true">
+  <ScrollView class="screen">
+    <StackLayout class="wrapper">
+      <StackLayout class="card">
+        <Label text="👤" class="icon" />
+        <Label text="Mon Profil" class="title" />
+        <Label text="Informations de l'utilisateur connecté" class="subtitle" />
+
+        <StackLayout class="profile-box">
+          <Label text="NOM COMPLET" class="profile-label" />
+          <Label id="nameLabel" text="Chargement..." class="profile-value" />
+
+          <Label text="ADRESSE EMAIL" class="profile-label" />
+          <Label id="emailLabel" text="Chargement..." class="profile-value" />
+
+          <Label text="STATUT" class="profile-label" />
+          <Label text="Compte actif" class="profile-value" />
+        </StackLayout>
+
+        <Button text="Se déconnecter" class="btn btn-danger" tap="onLogout" />
+
+        <Label
+          id="messageLabel"
+          text=""
+          class="message"
+          textWrap="true" />
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</Page>

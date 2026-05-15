@@ -1,0 +1,23 @@
+{
+  "name": "auto-miral",
+  "version": "1.0.0",
+  "description": "Application mobile Auto Miral",
+  "main": "app/app",
+  "private": true,
+  "scripts": {
+    "android": "ns run android",
+    "android:clean": "ns run android --clean --no-hmr",
+    "build": "ns build android",
+    "clean": "ns clean"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.6.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@nativescript/android": "9.0.4",
+    "@nativescript/webpack": "~5.0.0",
+    "typescript": "~5.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" actionBarHidden="true">
+  <StackLayout class="screen">
+    <Label text="Voitures de luxe" class="title-small" />
+    <Label id="messageLabel" text="" class="message" visibility="collapse" textWrap="true" />
+
+    <ListView id="carsList" itemTap="onCarTap" height="520">
+      <ListView.itemTemplate>
+        <StackLayout class="car-card">
+          <Label text="{{ name }}" class="car-title" />
+          <Label text="{{ brand }}" class="car-subtitle" />
+          <Label text="{{ price_per_day }}" class="car-price" />
+        </StackLayout>
+      </ListView.itemTemplate>
+    </ListView>
+
+    <Button text="SE DÉCONNECTER" tap="onLogout" class="btn-danger" />
+  </StackLayout>
+</Page>

@@ -1,0 +1,178 @@
+﻿Page {
+  background-color: #05052d;
+  color: white;
+  font-family: Arial;
+}
+
+ActionBar {
+  background-color: #05052d;
+  color: white;
+}
+
+.screen {
+  background-color: #05052d;
+  padding: 24;
+}
+
+.title {
+  color: white;
+  font-size: 34;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80;
+  margin-bottom: 8;
+}
+
+.title-small {
+  color: white;
+  font-size: 28;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45;
+  margin-bottom: 16;
+}
+
+.subtitle {
+  color: #b9c4ff;
+  font-size: 16;
+  text-align: center;
+  margin-bottom: 28;
+}
+
+.input {
+  background-color: #1c2a4a;
+  color: white;
+  placeholder-color: #a8b3d1;
+  border-radius: 16;
+  border-width: 1;
+  border-color: #405d91;
+  padding: 15;
+  margin-bottom: 14;
+  font-size: 16;
+}
+
+.btn-primary {
+  background-color: #6d5dfc;
+  color: white;
+  border-radius: 18;
+  padding: 15;
+  margin-top: 12;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background-color: #26c7b8;
+  color: white;
+  border-radius: 18;
+  padding: 15;
+  margin-top: 12;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  color: white;
+  border-radius: 18;
+  padding: 15;
+  margin-top: 18;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: #b9c4ff;
+  font-size: 14;
+  margin-top: 10;
+  padding: 8;
+}
+
+.message {
+  background-color: #173b2f;
+  color: #b7ffe3;
+  padding: 12;
+  border-radius: 14;
+  text-align: center;
+  margin-top: 14;
+  margin-bottom: 10;
+  font-size: 14;
+}
+
+.error {
+  background-color: #3b1119;
+  color: #ffb4b4;
+  padding: 12;
+  border-radius: 14;
+  text-align: center;
+  margin-top: 14;
+  font-size: 14;
+}
+
+.car-card {
+  background-color: #14213f;
+  border-radius: 18;
+  border-width: 1;
+  border-color: #344f7c;
+  padding: 18;
+  margin-bottom: 14;
+}
+
+.car-title {
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+}
+
+.car-subtitle {
+  color: #b9c4ff;
+  font-size: 14;
+  margin-top: 4;
+}
+
+.car-price {
+  color: #26c7b8;
+  font-size: 16;
+  font-weight: bold;
+  margin-top: 8;
+}
+
+.details-card {
+  background-color: #14213f;
+  border-radius: 22;
+  border-width: 1;
+  border-color: #344f7c;
+  padding: 22;
+  margin-top: 20;
+  margin-bottom: 20;
+}
+
+.details-title {
+  color: white;
+  font-size: 26;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8;
+}
+
+.details-subtitle {
+  color: #b9c4ff;
+  font-size: 18;
+  text-align: center;
+  margin-bottom: 12;
+}
+
+.details-price {
+  color: #26c7b8;
+  font-size: 20;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 18;
+}
+
+.details-text {
+  color: white;
+  font-size: 16;
+  text-align: center;
+}

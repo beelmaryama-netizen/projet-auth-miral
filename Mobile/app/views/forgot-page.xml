@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" actionBarHidden="true">
+  <ScrollView>
+    <StackLayout class="screen">
+      <Label text="Mot de passe oublié" class="title-small" />
+      <Label text="Entrez votre email pour recevoir les instructions." class="subtitle" textWrap="true" />
+
+      <TextField id="emailField" hint="Email" keyboardType="email" class="input" />
+
+      <Button text="ENVOYER" tap="onSend" class="btn-primary" />
+      <Button text="RETOUR CONNEXION" tap="goLogin" class="btn-secondary" />
+
+      <Label id="messageLabel" text="" class="message" visibility="collapse" textWrap="true" />
+    </StackLayout>
+  </ScrollView>
+</Page>

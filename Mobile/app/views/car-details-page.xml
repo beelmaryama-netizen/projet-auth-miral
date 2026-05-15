@@ -1,0 +1,17 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" actionBarHidden="true">
+  <ScrollView>
+    <StackLayout class="screen">
+      <Label text="Détails voiture" class="title-small" />
+
+      <StackLayout class="details-card">
+        <Label id="nameLabel" text="" class="details-title" />
+        <Label id="brandLabel" text="" class="details-subtitle" />
+        <Label id="priceLabel" text="" class="details-price" />
+        <Label id="descriptionLabel" text="" class="details-text" textWrap="true" />
+      </StackLayout>
+
+      <Button text="RETOUR À LA LISTE" tap="goBackList" class="btn-secondary" />
+      <Button text="SE DÉCONNECTER" tap="onLogout" class="btn-danger" />
+    </StackLayout>
+  </ScrollView>
+</Page>
